@@ -2,8 +2,6 @@
  
 [Plausible Analytics][] is a Simple, lightweight privacy-friendly website analytics  alternative to Google Analytics.
 
- 
-
 ## Install Chart
 
 ```shell script
@@ -13,9 +11,6 @@ helm repo update
 # Helm 3
 $ helm install [RELEASE_NAME] david-crty/plausible-helm-chart/
 ```
- 
-Source Code for this Helm Chart is located at: [8gears/plausible-analytics-helm-chart](https://github.com/8gears/plausible-analytics-helm-chart)
- 
 
 
 ## Requirements
@@ -28,6 +23,7 @@ Before you start make sure you have the following dependencies ready and working
 ## Configuration
 
 Plausible specific values.
+Clickouse specific values.
 The shown values represent defaults and comments provide a better description if needed. 
 
 ```yaml
@@ -197,4 +193,6 @@ clickhouseServer:
     enabled: false
 ```
 
-[Plausible Analytics]: https://github.com/plausible/analytics
+## Special Thanks
+
+Source Code for this Helm Chart [8gears/plausible-analytics-helm-chart](https://github.com/8gears/plausible-analytics-helm-chart)
