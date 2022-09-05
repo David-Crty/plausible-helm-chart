@@ -1,10 +1,10 @@
 # Plausible Analytics Helm Chart for Kubernetes
  
-[Plausible Analytics][] is a Simple, lightweight privacy-friendly website analytics  alternative to Google Analytics.
+Plausible Analytics is a Simple, lightweight privacy-friendly website analytics  alternative to Google Analytics.
 
 ## Install Chart
 
-```shell script
+```shell
 helm repo add david-crty https://david-crty.github.io/plausible-helm-chart/
 helm repo update
 
@@ -22,9 +22,9 @@ Before you start make sure you have the following dependencies ready and working
 
 ## Configuration
 
-Plausible specific values.
-Clickouse specific values.
-The shown values represent defaults and comments provide a better description if needed. 
+- Plausible specific values.
+- Clickouse specific values. 
+> The shown values represent defaults and comments provide a better description if needed. 
 
 ```yaml
 # Default values for plausible-analytics.
