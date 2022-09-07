@@ -19,7 +19,7 @@ database: # Postgres Database
 
 clickhouse: # Clickhouse Database
   enabled: true
-  url: "http://plausible-clickhouse:8123/plausible_events_db" # The URL Connection String to clickhouse DB see -> https://clickhouse.tech/docs/en/interfaces/http/
+  url: "http://plausible-clickhouse-server:8123/plausible_events_db" # The URL Connection String to clickhouse DB see -> https://clickhouse.tech/docs/en/interfaces/http/
 
 smtp: # Plausible uses and SMTP server to send transactional emails e.g. account activation, password reset, weekly reports, etc.
   enabled: false # Enable/Disable SMTP functionality
