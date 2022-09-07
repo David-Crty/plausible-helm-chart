@@ -3,6 +3,32 @@ entries:
   plausible-analytics:
   - apiVersion: v2
     appVersion: v1.3.0
+    created: "2022-09-07T17:53:22.6309224Z"
+    dependencies:
+    - alias: clickhouse-server
+      name: clickhouse
+      repository: https://liwenhe1993.github.io/charts/
+      version: 1.0.1
+    description: A Helm Chart for Plausible Analytics - a simple and privacy-friendly
+      alternative to Google Analytics
+    digest: ce17833b622e21f6161b33bd156209465f7fdc198db4a035a5c9c44217377eb3
+    home: https://plausible.io/
+    icon: https://docs.plausible.io/img/logo.svg
+    keywords:
+    - plausible analytics
+    - analytics
+    maintainers:
+    - name: David Courtey
+    name: plausible-analytics
+    sources:
+    - https://github.com/David-Crty/plausible-helm-chart
+    - https://github.com/plausible/analytics
+    type: application
+    urls:
+    - https://github.com/David-Crty/plausible-helm-chart/releases/download/plausible-analytics-0.0.6/plausible-analytics-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: v1.3.0
     created: "2022-09-05T20:50:49.578156177Z"
     dependencies:
     - alias: clickhouseServer
@@ -54,4 +80,4 @@ entries:
     urls:
     - https://github.com/David-Crty/plausible-helm-chart/releases/download/plausibleAnalytics-0.0.5/plausibleAnalytics-0.0.5.tgz
     version: 0.0.5
-generated: "2022-09-07T17:40:17.708053239Z"
+generated: "2022-09-07T17:53:22.6309317Z"
