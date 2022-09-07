@@ -141,7 +141,7 @@ tolerations: []
 
 affinity: {}
 
-clickhouseServer:
+clickhouse-server:
   timezone: Europe/Paris
   clickhouse:
     replicas: 1

@@ -1,8 +1,8 @@
 apiVersion: v2
-name: plausibleAnalytics
+name: plausible-analytics
 description: A Helm Chart for Plausible Analytics - a simple and privacy-friendly alternative to Google Analytics
 type: application
-version: 0.0.5
+version: 0.0.6
 appVersion: v1.3.0
 home: https://plausible.io/
 icon: https://docs.plausible.io/img/logo.svg
@@ -10,7 +10,7 @@ dependencies:
   - name: clickhouse
     version: 1.0.1
     repository: "https://liwenhe1993.github.io/charts/"
-    alias: clickhouseServer
+    alias: clickhouse-server
 keywords:
   - plausible analytics
   - analytics
