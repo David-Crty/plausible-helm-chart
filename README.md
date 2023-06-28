@@ -9,7 +9,7 @@ helm repo add david-crty https://david-crty.github.io/plausible-helm-chart/
 helm repo update
 
 # Helm 3
-$ helm install [RELEASE_NAME] david-crty/plausible-helm-chart/
+$ helm install [RELEASE_NAME] david-crty/plausible-analytics
 ```
 
 
